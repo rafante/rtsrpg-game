@@ -3,6 +3,8 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  let downloadUrl =
+    "https://firebasestorage.googleapis.com/v0/b/rtsrpg-game.appspot.com/o/rtsrpg_launcher.zip?alt=media&token=26fec10b-8e8f-48b1-9da1-5e2f06dffbfe";
   return (
     <div className={styles.container}>
       <Head>
@@ -33,13 +35,9 @@ const Home: NextPage = () => {
           No momento não é possível fazer nada além de se conectar com o
           servidor, mas volte com frequência para ver as novidades!!
           <br />
-          ; )
           <br />
           <br />
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/rtsrpg-game.appspot.com/o/rtsrpg_launcher.zip?alt=media&token=26fec10b-8e8f-48b1-9da1-5e2f06dffbfe"
-            className={styles.card}
-          >
+          <a href={downloadUrl} className={styles.card}>
             <b style={{ color: "gold", fontSize: "2em" }}>Clicando aqui</b>
           </a>
           <br />
