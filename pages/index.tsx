@@ -18,24 +18,29 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Após baixar, descompacte em alguma pasta e rode o arquivo RtsRpg.exe
-          <br />
-          Ao abrir, preencha apenas o seu nome de usuário e clique em conectar.
-          <br />
-          Para se mover, use as teclas ASDW. Aperte ESC para liberar o mouse e
-          use para girar a visão ao seu redor.
-          <br />
-          Essa é toda a jogabilidade disponível no momento, mas fique atento
-          para as próximas atualizações
+          Após baixar, descompacte em alguma pasta e rode o arquivo
+          rtsrpglauncher.exe
           <br />
           <br />
+          Esse é o launcher do jogo. Ele sempre vai baixar a versão mais
+          atualizada quando você abrir
           <br />
-          Baixe o client (Nova versão).
+          <br />
+          Basta aguardar um instante e o botão "Jogar" estará liberado
+          <br />
+          <br />
+          <br />
+          <br />
+          No momento não é possível fazer nada além de se conectar com o
+          servidor, mas volte com frequência para ver as novidades!!
+          <br />
+          <br />
+          ;)
           <br />
           <br />
           <br />
           <a
-            href="https://firebasestorage.googleapis.com/v0/b/rtsrpg-game.appspot.com/o/client.zip?alt=media&token=662e4566-1e05-4262-994f-5270e77ee2f9"
+            href="https://firebasestorage.googleapis.com/v0/b/rtsrpg-game.appspot.com/o/rtsrpg_launcher.zip?alt=media&token=26fec10b-8e8f-48b1-9da1-5e2f06dffbfe"
             className={styles.card}
           >
             <b style={{ color: "gold", fontSize: "2em" }}>Clicando aqui</b>
