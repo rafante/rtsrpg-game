@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -26,7 +25,7 @@ const Home: NextPage = () => {
           atualizada quando você abrir
           <br />
           <br />
-          Basta aguardar um instante e o botão "Jogar" estará liberado
+          Basta aguardar um instante e o botão Jogar estará liberado
           <br />
           <br />
           <br />
@@ -34,9 +33,7 @@ const Home: NextPage = () => {
           No momento não é possível fazer nada além de se conectar com o
           servidor, mas volte com frequência para ver as novidades!!
           <br />
-          <br />
-          ;)
-          <br />
+          ; )
           <br />
           <br />
           <a
@@ -45,6 +42,10 @@ const Home: NextPage = () => {
           >
             <b style={{ color: "gold", fontSize: "2em" }}>Clicando aqui</b>
           </a>
+          <br />
+          <br />
+          <br />
+          <br />
         </p>
       </main>
 
